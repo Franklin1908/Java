@@ -64,7 +64,7 @@ public class ZonaFitVentana extends JFrame {
             }
         };
 
-        String[] cabeceros = {"ID", "Nombre", "Apellido", "Membresia"};
+        String[] cabeceros = {"Id", "Nombre", "Apellido", "Membresia"};
         this.tablaModeloClientes.setColumnIdentifiers(cabeceros);
         this.clientesTabla = new JTable(tablaModeloClientes);
         //Restringimos la seleccion de la tabla a 1 solo registro
