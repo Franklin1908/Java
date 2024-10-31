@@ -9,7 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import javax.swing.*;
 import java.lang.module.Configuration;
-//@SpringBootApplication
+@SpringBootApplication
 public class ZonaFitSwing {
 
     public static void main(String[] args) {
